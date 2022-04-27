@@ -53,7 +53,7 @@
     "@layer0/devtools": "^3.6.0",
     "@layer0/next": "^3.6.0",
     "@layer0/prefetch": "^3.6.0",
-    "@layer0/react": "^3.6.0",
+    "@layer0/react": "^4.13.9",
     "@nrwl/cli": "11.1.5",
     "@nrwl/cypress": "11.1.5",
     "@nrwl/eslint-plugin-nx": "11.1.5",
