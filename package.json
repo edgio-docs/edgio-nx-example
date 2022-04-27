@@ -50,7 +50,7 @@
     "@emotion/babel-preset-css-prop": "11.0.0",
     "@layer0/cli": "^3.6.0",
     "@layer0/core": "^3.6.0",
-    "@layer0/devtools": "^3.6.0",
+    "@layer0/devtools": "^3.17.10",
     "@layer0/next": "^3.6.0",
     "@layer0/prefetch": "^3.6.0",
     "@layer0/react": "^3.6.0",
