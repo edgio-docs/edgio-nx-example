@@ -1,12 +1,15 @@
 {
+  "scripts": {
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy",
+    "start": "nx serve",
+    "build": "nx build layer0-nx-next-app",
+    "test": "nx test"
+  },
   "name": "layer0-nx-example",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {
-    "start": "nx serve",
-    "build": "nx build",
-    "test": "nx test"
-  },
   "private": true,
   "dependencies": {
     "@emotion/react": "11.9.0",
@@ -22,6 +25,12 @@
   },
   "devDependencies": {
     "@emotion/babel-plugin": "11.9.2",
+    "@layer0/cli": "^4.13.9",
+    "@layer0/core": "^4.13.9",
+    "@layer0/devtools": "^4.13.9",
+    "@layer0/next": "^4.13.9",
+    "@layer0/prefetch": "^4.13.9",
+    "@layer0/react": "^4.13.9",
     "@nrwl/cli": "14.0.5",
     "@nrwl/cypress": "14.0.5",
     "@nrwl/eslint-plugin-nx": "14.0.5",
