@@ -1,5 +1,5 @@
 {
-  "npmScope": "layer0-nx-example",
+  "npmScope": "edgio-nx-example",
   "affected": {
     "defaultBase": "master"
   },
@@ -42,5 +42,5 @@
       }
     }
   },
-  "defaultProject": "layer0-nx-next-app"
+  "defaultProject": "edgio-nx-next-app"
 }

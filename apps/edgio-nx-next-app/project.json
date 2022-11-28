@@ -1,6 +1,6 @@
 {
-  "root": "apps/layer0-nx-next-app",
-  "sourceRoot": "apps/layer0-nx-next-app",
+  "root": "apps/edgio-nx-next-app",
+  "sourceRoot": "apps/edgio-nx-next-app",
   "projectType": "application",
   "targets": {
     "build": {
@@ -8,8 +8,8 @@
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
-        "root": "apps/layer0-nx-next-app",
-        "outputPath": "dist/apps/layer0-nx-next-app"
+        "root": "apps/edgio-nx-next-app",
+        "outputPath": "dist/apps/edgio-nx-next-app"
       },
       "configurations": {
         "development": {},
@@ -20,16 +20,16 @@
       "executor": "@nrwl/next:server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "layer0-nx-next-app:build",
+        "buildTarget": "edgio-nx-next-app:build",
         "dev": true
       },
       "configurations": {
         "development": {
-          "buildTarget": "layer0-nx-next-app:build:development",
+          "buildTarget": "edgio-nx-next-app:build:development",
           "dev": true
         },
         "production": {
-          "buildTarget": "layer0-nx-next-app:build:production",
+          "buildTarget": "edgio-nx-next-app:build:production",
           "dev": false
         }
       }
@@ -37,14 +37,14 @@
     "export": {
       "executor": "@nrwl/next:export",
       "options": {
-        "buildTarget": "layer0-nx-next-app:build:production"
+        "buildTarget": "edgio-nx-next-app:build:production"
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/layer0-nx-next-app"],
+      "outputs": ["coverage/apps/edgio-nx-next-app"],
       "options": {
-        "jestConfig": "apps/layer0-nx-next-app/jest.config.ts",
+        "jestConfig": "apps/edgio-nx-next-app/jest.config.ts",
         "passWithNoTests": true
       }
     },
@@ -52,7 +52,7 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["apps/layer0-nx-next-app/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["apps/edgio-nx-next-app/**/*.{ts,tsx,js,jsx}"]
       }
     }
   },
