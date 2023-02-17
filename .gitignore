@@ -37,5 +37,5 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-# Layer0 generated build directory
-.layer0
+# Edgio generated build directory
+.edgio

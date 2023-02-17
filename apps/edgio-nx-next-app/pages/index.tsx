@@ -18,7 +18,7 @@ export function Index() {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Welcome layer0-nx-next-app 👋
+              Welcome edgio-nx-next-app 👋
             </h1>
           </div>
 

@@ -3,6 +3,7 @@ const createBuilder =
 const { join } = require('path');
 const srcDir = require('./nextSrcDir');
 
+process.chdir(srcDir);
 module.exports = createBuilder({
   srcDir,
   distDir: join('dist', 'apps', 'edgio-nx-next-app', '.next'),

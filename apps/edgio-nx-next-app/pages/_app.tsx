@@ -6,7 +6,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Welcome to layer0-nx-next-app!</title>
+        <title>Welcome to edgio-nx-next-app!</title>
       </Head>
       <main className="app">
         <Component {...pageProps} />

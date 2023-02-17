@@ -5,7 +5,7 @@ const cwd = process.cwd();
 
 module.exports = async function dev() {
   process.chdir(srcDir);
-  global.LAYER0_NEXT_APP = next({ dev: true });
+  global.EDGIO_NEXT_APP = next({ dev: true });
   process.chdir(cwd);
 
   return createDevServer({
